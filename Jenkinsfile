@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('package') {
+    stage('') {
       steps {
-        build '**/*.war'
+        echo 'Start pipeline'
+        sleep 10
       }
     }
   }
